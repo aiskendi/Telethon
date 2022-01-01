@@ -143,7 +143,7 @@ class Message(ChatGetter, SenderGetter, TLObject):
             If this message belongs to a group of messages
             (photo albums or video albums), all of them will
             have the same value here.
-        
+
         reactions (:tl:`MessageReactions`)
             Reactions to this message.
 
